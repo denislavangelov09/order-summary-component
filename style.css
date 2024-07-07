@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #e1e8fe;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  --blue: #382ae1;
+  --gray: #717fa6;
+  --purple-hover: #766cf1;
+  --light-gray: #f7f9ff;
+  --border-radius-card: 20px;
+}
+
+.background-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  max-width: 450px;
+  border-radius: var(--border-radius-card);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+  border-top-left-radius: var(--border-radius-card);
+  border-top-right-radius: var(--border-radius-card);
+}
+
+.text-area {
+  padding: 48px;
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 17px;
+}
+
+.card-description {
+  color: var(--gray);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.plan-details {
+  background-color: var(--light-gray);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 24px;
+  text-align: left;
+}
+
+.icon-music {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.plan {
+  text-align: left;
+}
+
+.plan-name {
+  font-weight: 700;
+}
+
+.plan-price {
+  color: var(--gray);
+}
+
+.change-plan {
+  color: var(--blue);
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.change-plan:hover {
+  color: var(--purple-hover);
+  cursor: pointer;
+}
+
+.button-proceed {
+  background-color: var(--blue);
+  color: white;
+  border-radius: 11px;
+  padding: 15px 0;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.button-proceed:hover {
+  background-color: var(--purple-hover);
+}
+
+.cancel-order {
+  color: var(--gray);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancel-order:hover {
+  color: black;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 100%;
+    max-width: 100%;
+    margin: 71px 24px;
+  }
+  .text-area {
+    padding: 24px;
+  }
+}
