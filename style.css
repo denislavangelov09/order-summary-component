@@ -56,7 +56,7 @@ select {
   position: relative;
   z-index: 1;
   background-color: white;
-  max-width: 450px;
+  max-width: 28.125rem;
   border-radius: var(--border-radius-card);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -72,13 +72,13 @@ select {
 
 .card-title {
   font-weight: 900;
-  font-size: 28px;
+  font-size: 1.75rem;
   margin-bottom: 17px;
 }
 
 .card-description {
   color: var(--gray);
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 
@@ -115,6 +115,8 @@ select {
   color: var(--blue);
   font-weight: 700;
   margin-left: 20px;
+  border: 0px;
+  background-color: var(--light-gray);
 }
 
 .change-plan:hover {
@@ -128,7 +130,7 @@ select {
   border-radius: 11px;
   padding: 15px 0;
   width: 100%;
-  max-width: 400px;
+  max-width: 25rem;
   text-align: center;
   cursor: pointer;
   font-weight: 700;
@@ -144,13 +146,15 @@ select {
   color: var(--gray);
   font-weight: 700;
   cursor: pointer;
+  border: 0;
+  background-color: white;
 }
 
 .cancel-order:hover {
   color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
   main {
     width: 100%;
     max-width: 100%;
