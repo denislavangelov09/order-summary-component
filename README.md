@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-btH7kN-JyR)
-- Live Site URL: [Live site URL](https://order-summary-component-tedkata.vercel.app/)
+- Live Site URL: [Live site URL](https://order-summary-component-denislav.vercel.app)
 
 ## My process
 
@@ -46,5 +46,4 @@ Users should be able to:
 ## Author
 
 ## Author
-- Frontend Mentor - [@tedkataa](https://www.frontendmentor.io/profile/tedkataa)
-- Twitter - [@tedkataa_](https://x.com/tedkataa_)
+- Frontend Mentor - [@denislavangelov09](https://www.frontendmentor.io/profile/denislavangelov09)
